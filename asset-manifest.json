@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/Herolo-Interview/static/js/main.e3d4d27d.chunk.js",
-    "main.js.map": "/Herolo-Interview/static/js/main.e3d4d27d.chunk.js.map",
+    "main.js": "/Herolo-Interview/static/js/main.5c76b935.chunk.js",
+    "main.js.map": "/Herolo-Interview/static/js/main.5c76b935.chunk.js.map",
     "runtime-main.js": "/Herolo-Interview/static/js/runtime-main.121c6db8.js",
     "runtime-main.js.map": "/Herolo-Interview/static/js/runtime-main.121c6db8.js.map",
     "static/js/2.50a6867e.chunk.js": "/Herolo-Interview/static/js/2.50a6867e.chunk.js",
     "static/js/2.50a6867e.chunk.js.map": "/Herolo-Interview/static/js/2.50a6867e.chunk.js.map",
     "index.html": "/Herolo-Interview/index.html",
-    "precache-manifest.ada58ca860dc2695ec255f497fb837dd.js": "/Herolo-Interview/precache-manifest.ada58ca860dc2695ec255f497fb837dd.js",
+    "precache-manifest.1bfeea2180c76d4ec0c2e6d3fe5278dc.js": "/Herolo-Interview/precache-manifest.1bfeea2180c76d4ec0c2e6d3fe5278dc.js",
     "service-worker.js": "/Herolo-Interview/service-worker.js",
     "static/js/2.50a6867e.chunk.js.LICENSE.txt": "/Herolo-Interview/static/js/2.50a6867e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.121c6db8.js",
     "static/js/2.50a6867e.chunk.js",
-    "static/js/main.e3d4d27d.chunk.js"
+    "static/js/main.5c76b935.chunk.js"
   ]
 }
