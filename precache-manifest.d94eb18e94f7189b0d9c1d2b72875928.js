@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac3992d74b2f867fa9015a44d2f3cb71",
+    "revision": "409ed34c9afd77e848babfcdea2758f3",
     "url": "/Herolo-Interview/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Herolo-Interview/static/js/2.50a6867e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "33a69da8e156eac6c96b",
-    "url": "/Herolo-Interview/static/js/main.7eb275ee.chunk.js"
+    "revision": "080547df3a2431033ad2",
+    "url": "/Herolo-Interview/static/js/main.0decf36d.chunk.js"
   },
   {
     "revision": "d7fb6099339619f45bff",
