@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Herolo-Interview/precache-manifest.58e0032e39d928ad7a84893cb9e189a4.js"
+  "/Herolo-Interview/precache-manifest.17c5d54c838a98af2183501f7412c251.js"
 );
 
 self.addEventListener('message', (event) => {
