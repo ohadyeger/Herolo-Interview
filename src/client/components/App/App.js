@@ -12,7 +12,7 @@ const BackgroundUrl =
 class App extends React.Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Container>
           <div
             style={{
@@ -41,13 +41,13 @@ class App extends React.Component {
             </div>
             <section style={{ height: "93%", width: "100%" }}>
               <Switch style={{ height: "100%", width: "100%" }}>
-                <Route exact path="/">
+                <Route exact path={""}>
                   Welcome
                 </Route>
-                <Route exact path="/compose">
+                <Route exact path={"/compose"}>
                   <ComposeForm />
                 </Route>
-                <Route exact path="/manage">
+                <Route exact path={"/manage"}>
                   <Emails />
                 </Route>
               </Switch>

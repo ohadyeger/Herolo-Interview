@@ -3,12 +3,13 @@ const express = require("express");
 const mongoose = require("mongoose");
 const fs = require("fs");
 const path = require("path");
-const cookieParser = require("cookie-parser");
-const dbName = "soos-dev";
+const dbName = "emails";
 // const UserModel = require("./model/User");
-
+const old_uri = "mongodb://localhost:27017/";
+const uri =
+  "mongodb+srv://ohad:167761@cluster0.yxxoc.mongodb.net/emails?retryWrites=true&w=majority";
 const config = {
-  mongoURL: process.env.MONGO_URL || "mongodb://localhost:27017/" + dbName,
+  mongoURL: process.env.MONGO_URL || uri,
   port: 8000,
 };
 
@@ -31,7 +32,6 @@ app.use(bodyParser.json({ limit: "50mb", extended: true }));
 app.use(bodyParser.urlencoded({ extended: false })); //handle body requests
 console.log(__dirname);
 app.use(express.static(path.join(__dirname, "public")));
-app.use(cookieParser());
 
 // Add backend api routes
 fs.readdirSync(__dirname + "/api").forEach((file) => {
@@ -40,6 +40,6 @@ fs.readdirSync(__dirname + "/api").forEach((file) => {
     : false;
 });
 
-app.listen(config.port || 8000, () =>
-  console.log(`Listening on port ${process.env.PORT || 8000}!`)
-);
+// app.listen(config.port || 8000, () =>
+//   console.log(`Listening on port ${process.env.PORT || 8000}!`)
+// );
